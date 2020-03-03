@@ -13,7 +13,7 @@ class App extends Component {
       {
         id: 2,
         title: "Dinner with friends",
-        completed: false
+        completed: true
       },
       {
         id: 3,
@@ -24,35 +24,16 @@ class App extends Component {
   }
 
   render() {
-    console.log(this.state.todos)
+    // console.log(this.state.todos)
     return (
       <div className="App>">
-        <Todos />
+        <Todos todos={this.state.todos} />
       </div>
     );
   }
 }
 
 // function App() {
-//     state = {
-//       todos: [
-//       {
-//         id: 1,
-//         title: "Take out the trash",
-//         completed: false
-//       },
-//       {
-//         id: 2,
-//         title: "Dinner with friends",
-//         completed: false
-//       },
-//       {
-//         id: 3,
-//         title: "Meeting with boss",
-//         completed: false
-//       },
-//     ]
-//   }
   
 //   return (
 //     <div className="App">
