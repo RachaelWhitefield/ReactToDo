@@ -49,4 +49,4 @@ const btnStyle = {
 //     backgroundColor: "#feeaf9"
 // }
 
-export default TodoItem
+export default TodoItem;
